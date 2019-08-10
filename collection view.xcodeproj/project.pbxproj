@@ -13,6 +13,8 @@
 		1BDF671222FE9C37005F6389 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BDF671022FE9C37005F6389 /* Main.storyboard */; };
 		1BDF671422FE9C38005F6389 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BDF671322FE9C38005F6389 /* Assets.xcassets */; };
 		1BDF671722FE9C38005F6389 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BDF671522FE9C38005F6389 /* LaunchScreen.storyboard */; };
+		1BDF671F22FE9D96005F6389 /* PrinceCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDF671E22FE9D96005F6389 /* PrinceCollectionViewController.swift */; };
+		1BDF672122FE9DBF005F6389 /* PrinceCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDF672022FE9DBF005F6389 /* PrinceCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		1BDF671322FE9C38005F6389 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1BDF671622FE9C38005F6389 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1BDF671822FE9C38005F6389 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BDF671E22FE9D96005F6389 /* PrinceCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrinceCollectionViewController.swift; sourceTree = "<group>"; };
+		1BDF672022FE9DBF005F6389 /* PrinceCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrinceCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				1BDF670C22FE9C37005F6389 /* SceneDelegate.swift */,
 				1BDF670E22FE9C37005F6389 /* ViewController.swift */,
 				1BDF671022FE9C37005F6389 /* Main.storyboard */,
+				1BDF671E22FE9D96005F6389 /* PrinceCollectionViewController.swift */,
+				1BDF672022FE9DBF005F6389 /* PrinceCollectionViewCell.swift */,
 				1BDF671322FE9C38005F6389 /* Assets.xcassets */,
 				1BDF671522FE9C38005F6389 /* LaunchScreen.storyboard */,
 				1BDF671822FE9C38005F6389 /* Info.plist */,
@@ -141,6 +147,8 @@
 				1BDF670F22FE9C37005F6389 /* ViewController.swift in Sources */,
 				1BDF670B22FE9C37005F6389 /* AppDelegate.swift in Sources */,
 				1BDF670D22FE9C37005F6389 /* SceneDelegate.swift in Sources */,
+				1BDF671F22FE9D96005F6389 /* PrinceCollectionViewController.swift in Sources */,
+				1BDF672122FE9DBF005F6389 /* PrinceCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

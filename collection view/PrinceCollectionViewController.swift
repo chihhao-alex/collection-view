@@ -50,16 +50,13 @@ class PrinceCollectionViewController: UICollectionViewController {
 
     override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of items
-        return 100
+        return 21
     }
 
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "\(PrinceCollectionViewCell.self)", for: indexPath) as! PrinceCollectionViewCell
-        if indexPath.item.isMultiple(of: 2){
-            cell.imageView.image = UIImage(named: "baby-1")
-        } else {
-            cell.imageView.image = UIImage(named: "baby-2")
-        }
+      
+        cell.imageView.image = UIImage(named: "baby\(indexPath.row)")
     
         // Configure the cell
     
